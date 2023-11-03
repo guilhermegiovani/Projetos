@@ -9,47 +9,56 @@ font-family: 'Montserrat', sans-serif;
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body{
     width: 95vw;
-    height: 95vh;
+    height: 100vh;
 }
 
 main {
-    max-width: 500px;
-    padding-left: 55px;
-}
-
-article,section{
-    text-align: center;
+    position: relative;
+    width: 95vw;
+    height: 100vh;
 }
 
 section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
     display: block;
     text-align: justify;
-    width: 100%;
-    margin-top: 20px;
-    padding-left: 70px;
+    
+    transform: translate(-50%, -50%);
 }
 
 article > img{
     width: 400px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    margin-top: 50px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 1em;
-    letter-spacing: 5px;
+    font-size: 0.9em;
+    letter-spacing: 7px;
+    margin: 20px 0px;
+    padding-left: 20px;
 }
 
 h2{
     font-family: 'Fraunces', serif;
     font-size: 2.3em;
     line-height: 40px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 #texto{
@@ -57,6 +66,8 @@ h2{
     font-weight: 300;
     text-align: justify;
     line-height: 30px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 #desconto{
@@ -68,6 +79,7 @@ h2{
     margin-top: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 #preco{
@@ -77,16 +89,20 @@ h2{
     font-size: 1em;
 }
 
+
 #carrinho{
     display: block;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     background-color: rgb(1, 110, 65);
     color: white;
-    width: 70%;
+    width: 300px;
     text-align: center;
     height: 50px;
     border-radius: 15px;
     cursor: pointer;
+    padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 /* .attribution { font-size: 11px; text-align: center; }
