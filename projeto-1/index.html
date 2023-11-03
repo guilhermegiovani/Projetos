@@ -22,7 +22,13 @@
     <section>
 
       <article>
-      <img src="images/image-product-mobile.jpg" alt="perfume">
+
+        <picture>
+          <source media="(min-width: 1100px)" srcset="imagens/image-product-desktop.jpg" type="image/jpg">
+
+          <img src="imagens/image-product-mobile.jpg" alt="perfume"> 
+        </picture>
+
       </article>
 
       <h1 class="corpo">PERFUME</h1>
@@ -34,15 +40,15 @@
         Perfumista-Criador da Casa <br> CHANEL.
       </p>
 
-      <p id="desconto" class="corpo">
+      <p id="desconto">
         $149.99
       </p>
 
-      <p id="preco" class="corpo">
+      <p id="preco">
         $169.99
       </p>
 
-      <button id="carrinho" class="corpo">
+      <button id="carrinho">
         <span class="material-icons">shopping_cart</span>
         Adicionar ao Carinho
       </button>

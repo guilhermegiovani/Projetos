@@ -38,7 +38,7 @@ section {
     transform: translate(-50%, -50%);
 }
 
-article > img{
+picture > img{
     width: 400px;
     margin-top: 50px;
     border-top-right-radius: 15px;
