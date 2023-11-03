@@ -1,1 +1,19 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 800px){
+    section {
+        width: 90%;
+    }
+
+    article > img {
+        background-image: url(../images/image-product-desktop.jpg);
+        float: left;
+        width: 60%;
+        height: 100%;
+    }
+
+    .corpo {
+        float: right;
+        width: 40%;
+    }
+}

@@ -30,6 +30,7 @@ section {
     position: absolute;
     top: 50%;
     left: 50%;
+    overflow: hidden;
 
     display: block;
     text-align: justify;
