@@ -37,17 +37,18 @@ section {
     overflow: hidden;
 
     background-color: hsl(244, 38%, 16%);
-    width: 375px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    width: 400px;
+    margin-top: 170px;
+    padding-bottom: 20px;
+    border-radius: 15px;
 
     transform: translate(-50%, -50%);
 }
 
 picture > img {
     display: block;
-    width: 375px;
-
+    width: 400px;
+    
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -85,7 +86,7 @@ p {
 }
 
 .texto {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 ul > li {
