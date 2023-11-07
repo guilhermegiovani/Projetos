@@ -37,8 +37,8 @@ section {
     overflow: hidden;
 
     background-color: hsl(244, 38%, 16%);
-    width: 350px;
-    margin-top: 120px;
+    width: 320px;
+    margin-top: 110px;
     padding-bottom: 20px;
     border-radius: 15px;
 
@@ -47,7 +47,7 @@ section {
 
 picture > img {
     display: block;
-    width: 350px;
+    width: 320px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -58,7 +58,7 @@ article {
 h1{
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
     color: hsl(0, 0%, 100%);
     margin-top: 40px;
@@ -73,7 +73,7 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     text-align: center;
     color:  hsla(0, 0%, 100%, 0.75);
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 30px;
     margin-bottom: 40px;
 }
@@ -81,7 +81,7 @@ p {
 .numero {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .texto {
