@@ -37,9 +37,9 @@ section {
     overflow: hidden;
 
     background-color: hsl(244, 38%, 16%);
-    width: 400px;
+    width: 350px;
     margin-top: 170px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     border-radius: 15px;
 
     transform: translate(-50%, -50%);
@@ -47,7 +47,7 @@ section {
 
 picture > img {
     display: block;
-    width: 400px;
+    width: 350px;
     
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
