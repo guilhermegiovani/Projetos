@@ -38,7 +38,7 @@ section {
 
     background-color: hsl(244, 38%, 16%);
     width: 350px;
-    margin-top: 140px;
+    margin-top: 120px;
     padding-bottom: 20px;
     border-radius: 15px;
 
@@ -48,7 +48,6 @@ section {
 picture > img {
     display: block;
     width: 350px;
-    
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
 }
@@ -94,5 +93,5 @@ ul > li {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
     text-align: center;
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsl(0, 0%, 100%);
 }
