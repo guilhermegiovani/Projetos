@@ -24,26 +24,19 @@ body {
 }
 
 main {
-    position: relative;
-    width: 96vw;
+    width: 100vw;
     height: 100vh;
     background-color: hsl(233, 47%, 7%)
 }
 
 section {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    overflow: hidden;
-
     background-color: hsl(244, 38%, 16%);
     width: 320px;
-    margin-left: 10px;
-    margin-top: 110px;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: auto;
     padding-bottom: 20px;
     border-radius: 15px;
-
-    transform: translate(-50%, -50%);
 }
 
 picture > img {
