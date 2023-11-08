@@ -17,7 +17,7 @@
 }
 
 body {
-    width: 96vw;
+    width: 100vw;
     height: 100vh;
     background-color: hsl(233, 47%, 7%);
     font-size: 15px;
@@ -25,7 +25,7 @@ body {
 
 main {
     position: relative;
-    width: 96vw;
+    width: 100vw;
     height: 100vh;
     background-color: hsl(233, 47%, 7%)
 }
