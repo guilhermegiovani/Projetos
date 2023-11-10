@@ -96,3 +96,7 @@ a {
     padding-left: 130px;
     padding-bottom: px;
 }
+
+a:hover {
+    text-decoration: underline;
+}
