@@ -24,6 +24,17 @@ body {
     display: flex;
 }
 
+
+
+.titulo {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.54);
+}
+
+.great {
+    font-size: 25px;
+}
+
 .container .side {
     width: 50%;
     flex: 1;
@@ -35,9 +46,11 @@ body {
 .container .side:first-child {
     border-radius: 28px;
     background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
-    color: white;
+    color: rgb(255, 255, 255);
     padding-top: 32px;
 }
+
+
 
 .container .circle {
     width: 166px;
@@ -59,4 +72,10 @@ body {
 .container .circle p {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.462);
+}
+
+.container .side:first-child p:last-of-type {
+    padding: 0 50px;
+    text-align: center;
+    margin-top: 10px;
 }
