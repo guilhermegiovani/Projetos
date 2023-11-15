@@ -10,3 +10,53 @@
     box-sizing: border-box;
     font-family: 'Hanken Grotesk', sans-serif;
 }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 614;
+    height: 426px;
+    display: flex;
+}
+
+.container .side {
+    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .side:first-child {
+    border-radius: 28px;
+    background-image: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+    color: white;
+    padding-top: 32px;
+}
+
+.container .circle {
+    width: 166px;
+    height: 166px;
+    border-radius: 100%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.container .circle h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.container .circle p {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.462);
+}
