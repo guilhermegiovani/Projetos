@@ -175,7 +175,7 @@ body {
     background-color: #312ced;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
     body {
         height: 100vh;
         display: flex;
@@ -183,7 +183,6 @@ body {
 
     .container {
         width: 370px;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -192,7 +191,6 @@ body {
 
     .container .side {
         width: 370px;
-        height: 100%;
     }
 
     .container .circle {
@@ -208,6 +206,6 @@ body {
     }
 
     .container .side:last-child a {
-        margin-bottom: 25px;
+        margin-bottom: 15px;
     }
 }
