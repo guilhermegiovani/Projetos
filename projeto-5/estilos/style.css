@@ -183,7 +183,7 @@ body {
 
     .container {
         width: 370px;
-        height: 1000px;
+        height: 850px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -192,7 +192,7 @@ body {
 
     .container .side {
         width: 370px;
-        height: 1000px
+        height: 850px;
     }
 
     .container .circle {
