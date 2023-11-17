@@ -188,6 +188,7 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        border-radius: 0px;
     }
 
     .container .side {
@@ -200,7 +201,7 @@ body {
     }
 
     .titulo {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     .container .side:first-child p:last-child {
@@ -208,6 +209,6 @@ body {
     }
 
     .container .side:last-child a {
-        margin-bottom: 15px;
+        margin-bottom: 0px;
     }
 }
