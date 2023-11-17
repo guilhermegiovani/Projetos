@@ -70,7 +70,7 @@ body {
 
 .container .circle h1 {
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .container .circle p {
@@ -177,7 +177,7 @@ body {
 
 @media screen and (max-width: 650px) {
     body {
-        height: 98vh;
+        height: 100vh;
         display: flex;
     }
 
@@ -196,10 +196,10 @@ body {
     }
 
     .titulo {
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
-    .container .side:first-child p:last-of-type {
+    .container .side:first-child p:last-child {
         padding-bottom: 10px;
     }
 
