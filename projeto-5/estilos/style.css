@@ -195,15 +195,19 @@ body {
         height: 100%;
     }
 
+    .container .circle {
+        padding-top: 40px;
+    }
+
     .titulo {
         padding-top: 50px;
     }
 
     .container .side:first-child p:last-child {
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .container .side:last-child a {
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 }
