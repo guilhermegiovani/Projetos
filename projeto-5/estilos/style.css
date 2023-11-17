@@ -196,19 +196,7 @@ body {
         height: 900px;
     }
 
-    .container .circle {
-        padding-top: 0px;
-    }
-
     .titulo {
-        padding-top: 60px;
-    }
-
-    .container .side:first-child p:last-child {
-        padding-bottom: 0px;
-    }
-
-    .container .side:last-child a {
-        margin-bottom: 0px;
+        padding-top: 70px;
     }
 }
