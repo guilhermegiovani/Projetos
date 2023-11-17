@@ -175,7 +175,7 @@ body {
     background-color: #312ced;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     body {
         height: 100vh;
         display: flex;
