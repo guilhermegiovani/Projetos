@@ -136,4 +136,9 @@ a {
         border-top-right-radius: 0px;
         border-bottom-left-radius: 7px;
     }
+
+    .link {
+        height: 40px;
+        margin-top: 30px;
+    }
 }
