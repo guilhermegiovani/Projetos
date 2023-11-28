@@ -116,7 +116,7 @@ a {
     background-color: hsl(180, 100%, 9%);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 750px) {
     body {
         height: 100vh;
         width: 100vw;
@@ -126,7 +126,7 @@ a {
         display: flex;
         margin-bottom: 100px;
         flex-direction: column;
-        width: 600px;
+        width: 550px;
     }
 
     .amarelo {
@@ -144,5 +144,6 @@ a {
     .link {
         height: 40px;
         margin-top: 30px;
+    
     }
 }
