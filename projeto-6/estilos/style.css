@@ -124,9 +124,9 @@ a {
 
     .container {
         display: flex;
-        margin-bottom: 100px;
+        margin-bottom: 125px;
         flex-direction: column;
-        width: 400px;
+        width: 375px;
     }
 
     .amarelo {
