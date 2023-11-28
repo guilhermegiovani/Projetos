@@ -31,6 +31,10 @@ body {
     height: 500px;
 }
 
+img {
+    width: 60px;
+}
+
 .amarelo {
     background-color: hsl(31, 77%, 52%);
     padding: 50px;
@@ -63,7 +67,7 @@ p {
     font-weight: 400;
     font-size: 15px;
     line-height: 25px;
-    padding-bottom: 100px;
+    
 }
 
 a {
@@ -77,6 +81,12 @@ a {
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.link {
+    display: flex;
+    height: 150px;
+    align-items: end;
 }
 
 .link1 {
@@ -104,4 +114,26 @@ a {
 .link3:hover {
     color: hsla(0, 0%, 100%, 0.75);
     background-color: hsl(180, 100%, 9%);
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        
+    }
+
+    .container {
+        display: flex;
+        margin-bottom: 100px;
+        flex-direction: column;
+    }
+
+    .amarelo {
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .verde {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 7px;
+    }
 }
