@@ -118,14 +118,15 @@ a {
 
 @media screen and (max-width: 650px) {
     body {
-        
+        height: 100vh;
+        width: 100vw;
     }
 
     .container {
         display: flex;
         margin-bottom: 100px;
         flex-direction: column;
-        width: 400px;
+        width: 600px;
     }
 
     .amarelo {
