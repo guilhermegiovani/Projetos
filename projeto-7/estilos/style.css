@@ -81,6 +81,8 @@ p {
 
 ul {
     padding-top: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 li {
@@ -88,19 +90,17 @@ li {
     justify-content: space-around;
     align-items: center;
     list-style: none;
-    padding-left: 30px;
-    padding-right: 30px;
 }
 
 .numero {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
     font-size: 20px;
-    margin-bottom: 3px;
+    margin-bottom: 5px;
 }
 
 .letra {
     color: hsl(0, 0%, 37%);
     letter-spacing: 3px;
-    font-size: 9px;
+    font-size: 10px;
 }
