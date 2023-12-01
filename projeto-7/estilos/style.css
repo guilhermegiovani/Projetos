@@ -36,7 +36,7 @@ body {
     width: 350px;
     height: 400px;
     border-radius: 15px;
-    box-shadow: 5px 5px 50px 10px hsl(185, 75%, 39%);
+    box-shadow: 5px 5px 40px 10px rgba(0, 0, 0, 0.172);
 }
 
 .card {
@@ -63,12 +63,34 @@ h1 {
 }
 
 strong {
-    margin-left: 10px;
+    margin-left: 8px;
     color: hsl(227, 10%, 46%);
     font-weight: 400;
 }
 
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(227, 10%, 46%);
+    font-size: .9em;
+    padding-top: 7px;
+}
+
+ul {
+    padding-top: 65px;
+}
 
 li {
     list-style: none;
+}
+
+.numero {
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;
+}
+
+.letra {
+    color: hsl(0, 0%, 37%);
+    letter-spacing: 3px;
 }
