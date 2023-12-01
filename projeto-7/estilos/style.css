@@ -15,7 +15,7 @@ background: hsl(185, 75%, 39%) url(../images/bg-pattern-top.svg) no-repeat -160p
     padding: 0;
     box-sizing: border-box;
     font-family: 'Kumbh Sans', sans-serif;
-    font-size: 18px;
+    
 }
 
 body {
@@ -60,12 +60,14 @@ h1 {
     align-items: center;
     padding-top: 70px;
     width: 350px;
+    font-size: 18px;
 }
 
 strong {
     margin-left: 8px;
     color: hsl(227, 10%, 46%);
     font-weight: 400;
+    font-size: 18px;
 }
 
 p {
@@ -82,15 +84,23 @@ ul {
 }
 
 li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .numero {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 3px;
 }
 
 .letra {
     color: hsl(0, 0%, 37%);
     letter-spacing: 3px;
+    font-size: 9px;
 }
