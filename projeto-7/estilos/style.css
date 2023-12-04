@@ -104,3 +104,47 @@ li {
     letter-spacing: 3px;
     font-size: 10px;
 }
+
+@media screen and (max-width: 650px) {
+    body {
+        height: 96vh;
+        background-repeat: no-repeat, no-repeat;
+        background-position: -600px -600px, 400px 400px;
+    }
+
+    .container {
+        position: relative;
+        width: 330px;
+        height: 380px;
+    }
+
+    .card {
+        width: 330px;
+    }
+
+    .perfil {
+        position: absolute;
+        top: 79px;
+        left: 115px;
+    }
+
+    h1, strong {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    ul {
+        padding-top: 50px;
+    }
+
+    .numero {
+        font-size: 23px;
+    }
+
+    .letra {
+        font-size: 12px;
+    }
+}
