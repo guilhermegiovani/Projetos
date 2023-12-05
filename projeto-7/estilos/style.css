@@ -107,10 +107,10 @@ li {
 
 @media screen and (max-width: 650px) {
     body {
-        height: 95vh;
-        width: 98vw;
+        height: 94vh;
+        width: 94vw;
         background-repeat: no-repeat, no-repeat;
-        background-position: -730px -570px, 200px 330px;
+        background-position: -750px -530px, 150px 250px;
     }
 
     .container {
