@@ -108,6 +108,7 @@ li {
 @media screen and (max-width: 650px) {
     body {
         height: 95vh;
+        width: 98vw;
         background-repeat: no-repeat, no-repeat;
         background-position: -730px -570px, 200px 330px;
     }
