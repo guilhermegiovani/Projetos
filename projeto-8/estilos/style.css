@@ -23,16 +23,46 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    background-color: black;
     color: white;
     height: 500px;
-    width: 800px;
+    width: 700px;
+}
+
+.parte1 {
+    padding-left: 30px;
+}
+
+.titulo {
+    color: hsl(179, 62%, 43%);
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.titulo2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.texto {
+    color: hsl(180, 1%, 70%);
+    font-size: 15px;
+    padding-bottom: 40px;
 }
 
 .parte2 {
-    background-color: hsl(179, 62%, 43%);
+    background-color: hsl(179, 62%, 41%);
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
 }
 
 .parte2-1 {
-    
+    background-color: hsl(179, 62%, 41%);
+    padding: 30px;
+}
+
+.parte2-2 {
+    background-color: hsl(179, 62%, 43%);
+    padding: 30px;
 }
