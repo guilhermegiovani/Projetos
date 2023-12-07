@@ -122,11 +122,18 @@ p {
 }
 
 @media screen and (max-width: 650px) {
+
+    body {
+        width: 100vw;
+    }
+
     .container {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 330px;
+        background-color: black;
+        height: 750px;
     }
 
     .titulo2 {
