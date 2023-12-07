@@ -133,7 +133,8 @@ p {
         align-items: center;
         width: 330px;
         background-color: black;
-        height: 750px;
+        height: 800px;
+        margin-top: 30px;
     }
 
     .titulo2 {
