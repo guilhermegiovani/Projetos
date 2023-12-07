@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    height: 450px;
+    height: 400px;
     width: 610px;
 }
 
@@ -46,30 +46,23 @@ body {
 }
 
 .texto {
-    color: hsl(180, 1%, 70%);
+    color: hsl(0, 0%, 55%);
     font-size: 15px;
     padding-bottom: 40px;
 }
 
 .parte2 {
     background-color: hsl(179, 62%, 41%);
-    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 
 .parte2-1 {
     background-color: hsl(179, 62%, 41%);
     padding: 40px;
-}
-
-.parte2-2 {
-    background-color: hsl(179, 62%, 43%);
-    padding: 40px;
-}
-
-h1 {
-    font-size: 16px;
+    border-bottom-left-radius: 7px;
 }
 
 .titulo1 {
@@ -108,3 +101,22 @@ button {
     font-size: 15px;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.214);
 }
+
+.parte2-2 {
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px;
+    border-bottom-right-radius: 7px;
+}
+
+h1 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    color: hsla(0, 0%, 83%, 0.856);
+    line-height: 19px;
+}
+
+
