@@ -54,15 +54,37 @@ body {
     background-color: hsl(179, 62%, 41%);
     height: 100%;
     display: grid;
-    grid-template-columns: 1fr 1.1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .parte2-1 {
     background-color: hsl(179, 62%, 41%);
-    padding: 30px;
+    padding: 40px;
 }
 
 .parte2-2 {
     background-color: hsl(179, 62%, 43%);
-    padding: 30px;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+.titulo1 {
+    margin-bottom: 20px;
+}
+
+strong {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    margin-right: 6px;
+}
+
+h2 {
+    font-size: 15px;
+    color: hsla(0, 1%, 85%, 0.645);
+    display: flex;
+    align-items: center;
 }
