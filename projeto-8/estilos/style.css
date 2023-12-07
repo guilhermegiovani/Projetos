@@ -24,12 +24,13 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
-    height: 500px;
-    width: 700px;
+    height: 450px;
+    width: 610px;
 }
 
 .parte1 {
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .titulo {
@@ -87,4 +88,23 @@ h2 {
     color: hsla(0, 1%, 85%, 0.645);
     display: flex;
     align-items: center;
+}
+
+.texto2 {
+    padding-top: 7px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.214);
 }
