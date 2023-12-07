@@ -141,6 +141,11 @@ p {
         margin-bottom: 22px;
     }
 
+    .texto {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
     .parte2 {
         display: block;
         border-bottom-left-radius: 7px;
