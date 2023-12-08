@@ -132,9 +132,9 @@ p {
         justify-content: center;
         align-items: center;
         width: 330px;
-        
+        background-color: black;
         height: 800px;
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .titulo2 {
