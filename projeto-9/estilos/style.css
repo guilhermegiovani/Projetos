@@ -24,7 +24,7 @@ body {
 .container {
     background-color: black;
     color: white;
-    width: 1300px;
+    width: 1200px;
     height: 600px;
     display: flex;
     flex-direction: column;
@@ -66,3 +66,34 @@ h1 {
 }
 
 .star3 {}
+
+.perfil {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colton {
+    position: relative;
+    background-color: hsl(300, 43%, 22%);
+    height: 200px;
+    width: 325px;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.foto_colton {
+    display: inline;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+span {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    height: 40px;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 15px;
+}
