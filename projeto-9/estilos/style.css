@@ -189,11 +189,14 @@ span {
         justify-content: center;
         text-align: center;
         line-height: 40px;
+        font-size: 2.9em;
+        margin-bottom: 30px;
     }
 
     .text {
         text-align: center;
         font-size: 18px;
+        line-height: 30px;
     }
 
     .direito {
@@ -201,6 +204,34 @@ span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-color: darkblue;
+        height: 150px;
+    }
+
+    .star {
+    }
+
+    .star1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .star2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .star3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
     }
 
     .perfil {
@@ -208,5 +239,46 @@ span {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .colton {
+        height: 250px;
+        width: 340px;
+    }
+
+    .foto_colton {
+        width: 50px;
+    }
+
+    .irene {
+        height: 250px;
+        width: 340px;
+    }
+
+    .foto_irene {
+        width: 50px;
+    }
+
+    .anne {
+        height: 250px;
+        width: 340px;
+    }
+
+    .foto_anne {
+        width: 50px;
+    }
+
+    .wallace {
+        padding-left: 75px;
+    }
+
+    span {
+        height: 50px;
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .texto {
+        font-size: 18px;
     }
 }
