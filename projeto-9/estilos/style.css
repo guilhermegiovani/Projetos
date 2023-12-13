@@ -47,31 +47,39 @@ h1 {
 }
 
 .direito {
-    padding-right: 70px;
     color: hsl(300, 43%, 22%);
     font-weight: 700;
 }
 
 .star {
     margin-right: 5px;
-    width: 14px;
+    width: 13px;
 }
 
 .estrela {
     margin-right: 25px;
-    width: 14px;
+    width: 13px;
 }
 
 .star1 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding-top: 45px;
+    padding-right: 180px;
+    font-size: 15px;
 }
 
 .star2 {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 40px;
+    font-size: 15px;
 }
 
-.star3 {}
+.star3 {
+    padding-right: 60px;
+    padding-left: 80px;
+    font-size: 15px;
+}
 
 .perfil {
     display: flex;
@@ -144,7 +152,7 @@ span {
 
 .nome {
     font-weight: 500;
-    color: white;
+    color: hsl(300, 24%, 96%);
 }
 
 .verified {
@@ -155,5 +163,5 @@ span {
     margin-top: 25px;
     font-size: 14px;
     line-height: 20px;
-    color: white;
+    color: hsl(300, 24%, 96%);
 }
