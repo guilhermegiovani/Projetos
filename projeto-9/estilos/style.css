@@ -221,27 +221,58 @@ span {
         height: 300px;
     }
 
+    .img {
+        display: flex;
+        justify-content: center;
+        width: 350px;
+        margin-bottom: 10px;
+    }
+
     .star, .estrela {
-        margin-bottom: 15px;
-        margin-left: 3px;
-        width: 17px;
-        text-align: center;
+        width: 18px;
+        margin-left: 5px;
     }
 
     .star1 {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
         text-align: center;
+    }
+
+    .star1_1 {
         font-size: 20px;
-        background-color: rgb(92, 54, 8);
+        width: 350px;
     }
 
     .star2 {
-        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .star2_1 {
         font-size: 20px;
+        width: 350px;
     }
 
     .star3 {
-        padding-top: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+
+    .star3_1 {
         font-size: 20px;
+        width: 350px;
     }
 
     .perfil {
