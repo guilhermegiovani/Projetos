@@ -53,8 +53,13 @@ h1 {
     font-weight: 700;
 }
 
+.img {
+    display: flex;
+    flex-direction: row;
+}
+
 .star {
-    margin-right: 5px;
+    margin-right: 7px;
     width: 13px;
 }
 
@@ -64,6 +69,7 @@ h1 {
 }
 
 .star1 {
+    display: flex;
     margin-bottom: 50px;
     padding-top: 45px;
     padding-right: 180px;
@@ -71,6 +77,7 @@ h1 {
 }
 
 .star2 {
+    display: flex;
     margin-bottom: 50px;
     padding-right: 100px;
     padding-left: 40px;
@@ -78,6 +85,7 @@ h1 {
 }
 
 .star3 {
+    display: flex;
     padding-right: 60px;
     padding-left: 80px;
     font-size: 15px;
@@ -166,22 +174,27 @@ span {
     font-size: 14px;
     line-height: 20px;
     color: hsl(300, 24%, 96%);
+    width: 240px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 660px) {
 
     body {
+        height: 100vh;
+        width: 100vw;
     }
 
     .container {
         display: flex;
         width: 350px;
+        height: 800px;
         background-color: black;
     }
 
     .cabecalho {
         display: flex;
         flex-direction: column;
+        margin-bottom: 75px;
     }
 
     h1 {
@@ -197,41 +210,38 @@ span {
         text-align: center;
         font-size: 18px;
         line-height: 30px;
+        margin-bottom: 50px;
     }
 
     .direito {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
         background-color: darkblue;
-        height: 150px;
+        height: 300px;
     }
 
-    .star {
+    .star, .estrela {
+        margin-bottom: 15px;
+        margin-left: 3px;
+        width: 17px;
+        text-align: center;
     }
 
     .star1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(92, 54, 8);
     }
 
     .star2 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        padding-top: 0;
+        font-size: 20px;
     }
 
     .star3 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
+        padding-top: 0;
+        font-size: 20px;
     }
 
     .perfil {
@@ -239,11 +249,14 @@ span {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: 75px;
     }
 
     .colton {
-        height: 240px;
+        height: 250px;
         width: 340px;
+        padding: 40px;
+        border-radius: 10px;
     }
 
     .foto_colton {
@@ -251,8 +264,10 @@ span {
     }
 
     .irene {
-        height: 240px;
+        height: 250px;
         width: 340px;
+        padding: 40px;
+        border-radius: 10px;
     }
 
     .foto_irene {
@@ -260,8 +275,11 @@ span {
     }
 
     .anne {
-        height: 240px;
+        height: 250px;
         width: 340px;
+        padding: 40px;
+        margin-top: 15px;
+        border-radius: 10px;
     }
 
     .foto_anne {
@@ -279,6 +297,6 @@ span {
     }
 
     .texto {
-        font-size: 18px;
+        font-size: 17px;
     }
 }
