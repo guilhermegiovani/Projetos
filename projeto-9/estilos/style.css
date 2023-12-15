@@ -187,7 +187,7 @@ span {
     .container {
         display: flex;
         width: 350px;
-        height: 800px;
+        height: 0px;
         background-color: black;
     }
 
@@ -203,21 +203,20 @@ span {
         text-align: center;
         line-height: 40px;
         font-size: 2.9em;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
     }
 
     .text {
         text-align: center;
         font-size: 18px;
         line-height: 30px;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .direito {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: darkblue;
         height: 300px;
     }
 
@@ -225,11 +224,11 @@ span {
         display: flex;
         justify-content: center;
         width: 350px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .star, .estrela {
-        width: 18px;
+        width: 20px;
         margin-left: 5px;
     }
 
@@ -241,7 +240,7 @@ span {
     }
 
     .star1_1 {
-        font-size: 20px;
+        font-size: 22px;
         width: 350px;
     }
 
@@ -256,7 +255,7 @@ span {
 
 
     .star2_1 {
-        font-size: 20px;
+        font-size: 22px;
         width: 350px;
     }
 
@@ -271,7 +270,7 @@ span {
 
 
     .star3_1 {
-        font-size: 20px;
+        font-size: 22px;
         width: 350px;
     }
 
@@ -280,7 +279,6 @@ span {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 75px;
     }
 
     .colton {
