@@ -16,6 +16,37 @@ font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(../images/bg-desktop.svg);
     color: white;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 45px 75px;
+}
+
+.logo {
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+.ilustracao {
+    width: 710px;
+}
+
+.direito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.redesocial {
+    display: flex;
+    align-items: end;
 }
