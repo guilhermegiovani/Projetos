@@ -20,6 +20,8 @@ body {
     width: 100vw;
     background-color: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
     color: white;
 }
 
@@ -32,7 +34,7 @@ body {
 
 .logo {
     width: 180px;
-    margin-bottom: 50px;
+    margin-bottom: 39px;
 }
 
 .ilustracao {
@@ -40,10 +42,25 @@ body {
 }
 
 .direito {
+    height: 470px;
+    margin-top: 160px;
+    margin-left: 50px;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
 }
 
 .redesocial {
