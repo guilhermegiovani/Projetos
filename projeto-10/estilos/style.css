@@ -28,7 +28,6 @@ body {
 .container {
     height: 100%;
     width: 100%;
-    background-color: ;
     display: flex;
     padding-top: 45px;
     padding-left: 75px;
@@ -58,12 +57,14 @@ h1 {
     margin-bottom: 20px;
     line-height: 50px;
     font-weight: 600;
+    width: 360px;
 }
 
 p {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 20px;
+    width: 460px;
 }
 
 .button {
@@ -145,4 +146,69 @@ p {
     background-color: hsl(257, 40%, 49%);
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
+}
+
+@media screen and (max-width: 660px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container {
+        margin-top: 310px;
+        padding-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 1100px;
+    }
+
+    .ilustracao {
+        width: 330px;
+        margin-bottom: 50px;
+    }
+
+    .direito {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 500px;
+        padding: 0;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    h1 {
+        width: 360px;
+        text-align: center;
+        font-size: 28px;
+        line-height: 45px;
+    }
+
+    p {
+        text-align: center;
+        width: 350px;
+        line-height: 27px;
+        font-size: 16px;
+        padding: 0px 25px;
+        margin-bottom: 30px
+    }
+
+    .button {
+        width: 230px;
+        padding: 15px;
+        margin-bottom: 80px;
+        font-size: 17px;
+    }
+
+    .redesocial {
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+    }
 }
