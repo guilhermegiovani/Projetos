@@ -152,7 +152,7 @@ p {
 
     body {
         background-image: url(../images/bg-mobile.svg);
-        background-position: 20px 50px;
+        background-position: 15px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
