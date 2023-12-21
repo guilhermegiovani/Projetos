@@ -152,7 +152,7 @@ p {
 
     body {
         background-image: url(../images/bg-mobile.svg);
-        background-position: 15px -50px;
+        background-position: 0px 20px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -167,7 +167,7 @@ p {
         flex-direction: column;
         width: 350px;
         height: 1100px;
-        background-color: hsla(257, 41%, 37%, 0.274);
+        background-color: hsla(257, 41%, 37%, 0.474);
     }
 
     .logo {
