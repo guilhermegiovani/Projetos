@@ -149,8 +149,10 @@ p {
 }
 
 @media screen and (max-width: 660px) {
+
     body {
         background-image: url(../images/bg-mobile.svg);
+        background-position: 148px 80px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -165,11 +167,16 @@ p {
         flex-direction: column;
         width: 350px;
         height: 1100px;
+        background-color: ;
+    }
+
+    .logo {
+        width: 170px;
     }
 
     .ilustracao {
-        width: 330px;
-        margin-bottom: 50px;
+        width: 320px;
+        margin-bottom: 30px;
     }
 
     .direito {
