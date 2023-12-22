@@ -20,13 +20,15 @@ font-family: 'Outfit', sans-serif;
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: ;
     align-items: center;
     flex-direction: column;
     margin: auto;
     color: white;
-    width: 300px;
+    width: 270px;
+    height: 450px;
     margin-top: 100px;
+    border-radius: 10px;
     background-color: hsl(212, 45%, 89%);
 }
 
@@ -53,4 +55,30 @@ p {
     font-size: 15px;
     text-align: center;
     color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 700px) {
+
+    .container {
+        width: 320px;
+        height: 500px;
+    }
+
+    .imagem {
+        width: 320px;
+    }
+
+    img {
+        width: 320px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        width: 280px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    
 }
