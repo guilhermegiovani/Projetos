@@ -167,12 +167,12 @@ p {
         flex-direction: column;
         width: 360px;
         height: 1000px;
-        background-color: hsla(257, 41%, 37%, 0.474);
+        background-color: ;
     }
 
     .logo {
         width: 170px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
     .ilustracao {
