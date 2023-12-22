@@ -166,13 +166,12 @@ p {
         align-items: center;
         flex-direction: column;
         width: 360px;
-        height: 1000px;
-        background-color: hsla(257, 41%, 37%, 0.474);
+        height: 970px;
     }
 
     .logo {
         width: 170px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .ilustracao {
