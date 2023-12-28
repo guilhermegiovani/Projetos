@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    background-color: darkblue;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1150px;
+    height: 500px;
+    background-color: black;
+}
+
+.supervisor {
+    position: absolute;
+    top: 125px;
+    left: 0;
+    background-color: darkred;
+    width: 375px;
+    height: 250px;
+}
+
+.team_builder {
+    background-color: darkred;
+    width: 375px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.karma {
+    background-color: darkred;
+    width: 375px;
+    height: 250px;
+}
+
+.calculator {
+    position: absolute;
+    top: 125px;
+    left: 775px;
+    background-color: darkred;
+    width: 375px;
+    height: 250px;
+}
