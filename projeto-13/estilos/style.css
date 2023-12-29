@@ -34,7 +34,27 @@ body {
     align-items: center;
     flex-direction: column;
     width: 500px;
-    background-color: darkblue;
+    background-color: ;
+}
+
+.primeiro {
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 2.1em;
+}
+
+.segundo {
+    color: black;
+    font-weight: 600;
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.p1 {
+    text-align: center;
+    font-size: 14px;
+    color: hsl(229, 6%, 66%);
 }
 
 .main {
