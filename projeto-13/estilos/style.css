@@ -44,7 +44,7 @@ body {
 }
 
 .segundo {
-    color: black;
+    color: hsl(234, 12%, 34%);
     font-weight: 600;
     font-size: 2.1em;
     font-weight: 600;
@@ -55,6 +55,7 @@ body {
     text-align: center;
     font-size: 14px;
     color: hsl(229, 6%, 66%);
+    margin-bottom: 30px;
 }
 
 .main {
@@ -62,18 +63,19 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 1150px;
-    height: 500px;
+    width: 1165px;
+    height: 540px;
     background-color: black;
 }
 
 .supervisor {
     position: absolute;
-    top: 125px;
+    top: 145px;
     left: 0;
     background-color: darkred;
     width: 375px;
     height: 250px;
+    padding: 30px;
 }
 
 .team_builder {
@@ -81,19 +83,57 @@ body {
     width: 375px;
     height: 250px;
     margin-bottom: 20px;
+    padding: 30px;
 }
 
 .karma {
     background-color: darkred;
     width: 375px;
     height: 250px;
+    padding: 30px;
 }
 
 .calculator {
     position: absolute;
-    top: 125px;
-    left: 775px;
+    top: 145px;
+    left: 790px;
     background-color: darkred;
     width: 375px;
     height: 250px;
+    padding: 30px;
+    padding-top: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: hsl(234, 12%, 34%);
+}
+
+.p {
+    line-height: 25px;
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+}
+
+.p2 {
+    width: 230px;
+}
+
+.p3 {
+    width: 250px;
+}
+
+.p4 {
+    width: 270px;
+}
+
+.p5 {
+    width: 270px;
+}
+
+img {
+    width: 50px;
+    margin-top: 55px;
+    margin-left: 265px;
 }
