@@ -65,30 +65,30 @@ body {
     flex-direction: column;
     width: 1165px;
     height: 540px;
-    background-color: black;
+    background-color: ;
 }
 
 .supervisor {
     position: absolute;
     top: 145px;
-    left: 0;
-    background-color: darkred;
-    width: 375px;
+    left: 35px;
+    background-color: ;
+    width: 350px;
     height: 250px;
     padding: 30px;
 }
 
 .team_builder {
-    background-color: darkred;
-    width: 375px;
+    background-color: ;
+    width: 350px;
     height: 250px;
     margin-bottom: 20px;
     padding: 30px;
 }
 
 .karma {
-    background-color: darkred;
-    width: 375px;
+    background-color: ;
+    width: 350px;
     height: 250px;
     padding: 30px;
 }
@@ -96,12 +96,11 @@ body {
 .calculator {
     position: absolute;
     top: 145px;
-    left: 790px;
-    background-color: darkred;
-    width: 375px;
+    left: 780px;
+    background-color: ;
+    width: 350px;
     height: 250px;
     padding: 30px;
-    padding-top: 25px;
 }
 
 h2 {
@@ -133,7 +132,7 @@ h2 {
 }
 
 img {
-    width: 50px;
-    margin-top: 55px;
-    margin-left: 265px;
+    width: 55px;
+    margin-top: 50px;
+    margin-left: 235px;
 }
