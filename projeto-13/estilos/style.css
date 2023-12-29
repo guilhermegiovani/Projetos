@@ -34,7 +34,6 @@ body {
     align-items: center;
     flex-direction: column;
     width: 500px;
-    background-color: ;
 }
 
 .primeiro {
@@ -65,21 +64,18 @@ body {
     flex-direction: column;
     width: 1165px;
     height: 540px;
-    background-color: ;
 }
 
 .supervisor {
     position: absolute;
     top: 145px;
     left: 35px;
-    background-color: ;
     width: 350px;
     height: 250px;
     padding: 30px;
 }
 
 .team_builder {
-    background-color: ;
     width: 350px;
     height: 250px;
     margin-bottom: 20px;
@@ -87,7 +83,6 @@ body {
 }
 
 .karma {
-    background-color: ;
     width: 350px;
     height: 250px;
     padding: 30px;
@@ -97,7 +92,6 @@ body {
     position: absolute;
     top: 145px;
     left: 780px;
-    background-color: ;
     width: 350px;
     height: 250px;
     padding: 30px;
