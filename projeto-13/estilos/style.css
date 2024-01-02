@@ -79,8 +79,8 @@ body {
     box-shadow: 5px 7px 10px hsla(234, 12%, 34%, 0.388);
     background-image: linear-gradient(
         to bottom,
-        hsl(180, 62%, 55%) 2%,
-        hsl(0, 0%, 98%) 2%
+        hsl(180, 62%, 55%) 3%,
+        hsl(0, 0%, 98%) 3%
     );
 }
 
@@ -122,8 +122,8 @@ body {
     box-shadow: 5px 7px 10px hsla(234, 12%, 34%, 0.388);
     background-image: linear-gradient(
         to bottom,
-        hsl(212, 86%, 64%) 2%,
-        hsl(0, 0%, 98%) 2%
+        hsl(212, 86%, 64%) 3%,
+        hsl(0, 0%, 98%) 3%
     );
 }
 
@@ -160,4 +160,74 @@ img {
     width: 55px;
     margin-top: 50px;
     margin-left: 235px;
+}
+
+@media screen and (max-width: 660px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 350px;
+        height: 1650px;
+        margin-top: 60px;
+    }
+
+    .primeiro {
+        font-size: 1.6em;
+    }
+
+    .segundo {
+        font-size: 1.6em;
+    }
+
+    .p1 {
+        font-size: 14px;
+        width: 300px;
+    }
+
+    .main {
+        width: 350px;
+    }
+
+    .supervisor {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 220px;
+        margin-bottom: 20px;
+    }
+
+    .team_builder {
+        width: 320px;
+        height: 220px;
+    }
+
+    .karma {
+        margin-bottom: 20px;
+        width: 320px;
+        height: 220px;
+    }
+
+    .calculator {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 320px;
+        height: 220px;
+    }
+
+    img {
+        width: 45px;
+        margin-top: 30px;
+        margin-left: 215px;
+    }
 }
