@@ -79,8 +79,8 @@ body {
     box-shadow: 5px 7px 10px hsla(234, 12%, 34%, 0.388);
     background-image: linear-gradient(
         to bottom,
-        hsl(180, 62%, 55%) 3%,
-        hsl(0, 0%, 98%) 3%
+        hsl(180, 62%, 55%) 2%,
+        hsl(0, 0%, 98%) 2%
     );
 }
 
@@ -122,8 +122,8 @@ body {
     box-shadow: 5px 7px 10px hsla(234, 12%, 34%, 0.388);
     background-image: linear-gradient(
         to bottom,
-        hsl(212, 86%, 64%) 3%,
-        hsl(0, 0%, 98%) 3%
+        hsl(212, 86%, 64%) 2%,
+        hsl(0, 0%, 98%) 2%
     );
 }
 
@@ -165,6 +165,7 @@ img {
 @media screen and (max-width: 660px) {
 
     body {
+        width: 96vw;
         display: flex;
         justify-content: center;
         align-items: center;
