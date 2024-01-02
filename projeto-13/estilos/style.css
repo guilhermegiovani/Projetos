@@ -177,10 +177,9 @@ img {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 350px;
+        width: 370px;
         height: 1650px;
-        margin-top: 60px;
-        background-color: rgba(0, 0, 0, 0.564);
+        margin-top: 80px;
     }
 
     .cabecalho {
@@ -230,6 +229,14 @@ img {
         left: 0;
         width: 320px;
         height: 220px;
+    }
+
+    .p4 {
+        width: 230px;
+    }
+
+    .p5 {
+        width: 230px;
     }
 
     img {
