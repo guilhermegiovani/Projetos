@@ -1,67 +1,36 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- exibe o site corretamente com base no dispositivo do usuário -->
-  <title>Componente do cartão de visualização do produto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <link rel="stylesheet" href="estilos/style.css">
-
-  <link rel="stylesheet" href="estilos/media.css">
-
-  <!-- Sinta-se à vontade para remover esses estilos ou personalizar em sua própria folha de estilo 👍 -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
 
-  <main>
-    
-    <section>
+  Perfume
 
-      <article>
+  Gabrielle Essence Eau De Parfum
 
-        <picture>
-          <source media="(min-width: 1100px)" srcset="imagens/image-product-desktop.jpg" type="image/jpg">
+  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
 
-          <img src="imagens/image-product-mobile.jpg" alt="perfume"> 
-        </picture>
+  $149.99
+  $169.99
 
-      </article>
-
-      <h1 class="corpo">PERFUME</h1>
-
-      <h2 class="corpo">Gabrielle Essence <br> Eau De Parfum</h2>
-
-      <p id="texto" class="corpo">
-        Uma interpretação floral, solar e voluptuosa, composta por Olivier <br> Polge, Perfumista-Criador da Casa <br> CHANEL.
-      </p>
-
-      <p id="desconto" class="corpo">
-        $149.99
-      </p>
-
-      <p id="preco" class="corpo">
-        $169.99
-      </p>
-
-      <button id="carrinho" class="corpo">
-        <span class="material-icons">shopping_cart</span>
-        Adicionar ao Carinho
-      </button>
-      
-      </section>
-  </main>
-
+  Add to Cart
   
-    
-  
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
-  -->
 </body>
 </html>
