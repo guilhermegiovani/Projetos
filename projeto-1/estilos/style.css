@@ -111,16 +111,17 @@ button {
     .container {
         display: flex;
         flex-direction: column;
-        width: 310px;
-        height: 585px;
+        width: 320px;
+        height: 565px;
+        background-color: black;
     }
 
     picture {
-        height: 217px;
+        height: 224px;
     }
     
     .perfume {
-        height: 217px;
+        height: 224px;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 10px;
     }
@@ -130,19 +131,21 @@ button {
     }
 
     h1 {
-        font-size: 0.6em;
+        font-size: 12px;
         margin-bottom: 10px;
     }
 
     h2 {
-        font-size: 1.7em;
-        width: 260px;
+        font-size: 1.9em;
+        width: 270px;
+        line-height: 30px;
         margin-bottom: 10px;
     }
 
     .texto {
-        width: 250px;
-        font-size: 12px;
+        width: 271px;
+        font-size: 13px;
+        line-height: 20px;
         margin-bottom: 20px;
     }
 
@@ -151,6 +154,6 @@ button {
     }
 
     button {
-        width: 260px;
+        width: 270px;
     }
 }
