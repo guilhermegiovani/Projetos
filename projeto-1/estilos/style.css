@@ -112,18 +112,22 @@ button {
     .container {
         display: flex;
         flex-direction: column;
-        width: 350px;
-        height: 630px;
-        background-color: black;
+        width: 340px;
+        height: 600px;
     }
     
     .perfume {
-        height: 245px;
+        height: 238px;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 10px;
     }
 
+    .direito {
+        padding: 20px;
+    }
+
     h1 {
+        font-size: 0.7em;
         margin-bottom: 10px;
     }
 
@@ -133,9 +137,8 @@ button {
     }
 
     .texto {
-        background-color: darkblue;
-        width: 315px;
-        font-size: 15px;
+        width: 295px;
+        font-size: 14px;
         margin-bottom: 20px;
     }
 
@@ -144,6 +147,6 @@ button {
     }
 
     button {
-        width: 290px;
+        width: 300px;
     }
 }
