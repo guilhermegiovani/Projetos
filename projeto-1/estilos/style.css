@@ -107,24 +107,26 @@ button {
 }
 
 @media screen and (max-width: 660px) {
-    body {
-    }
 
     .container {
         display: flex;
         flex-direction: column;
-        width: 340px;
+        width: 330px;
         height: 600px;
+    }
+
+    picture {
+        height: 231px;
     }
     
     .perfume {
-        height: 238px;
+        height: 231px;
         border-bottom-left-radius: 0px;
         border-top-right-radius: 10px;
     }
 
     .direito {
-        padding: 20px;
+        padding: 25px;
     }
 
     h1 {
@@ -133,13 +135,14 @@ button {
     }
 
     h2 {
+        font-size: 1.8em;
         width: 300px;
         margin-bottom: 10px;
     }
 
     .texto {
-        width: 295px;
-        font-size: 14px;
+        width: 275px;
+        font-size: 13px;
         margin-bottom: 20px;
     }
 
@@ -148,6 +151,6 @@ button {
     }
 
     button {
-        width: 300px;
+        width: 280px;
     }
 }
