@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.accounts_posting {
+    display: flex;
+    flex-direction: row;
+}
+
+.audience_grow_followers {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 200px;
+}
