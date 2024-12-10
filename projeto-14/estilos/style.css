@@ -16,7 +16,7 @@ body {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
@@ -25,24 +25,56 @@ main {
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     flex-direction: column;
+    height: 790px;
 }
 
 .create_post {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: hsl(31, 66%, 93%);
+    width: 235px;
+    height: 370px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 40px 30px;
+}
+
+.create_post h2 {
+    font-size: 2em;
+    font-weight: 500;
+    width: 200px;
+    line-height: .9em;
+    margin-bottom: 20px;
+}
+
+.create_post img {
+    width: 180px;
+}
+
+.create_post span {
+    color: hsl(256, 67%, 59%);
+    font-weight: 500;
+    font-style: italic;
 }
 
 .content_AI {
     background-color: hsl(39, 100%, 71%);
+    width: 235px;
+    height: 370px;
+    border-radius: 10px;
 }
 
 .container_central {
     background-color: chartreuse;
+    width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 0 30px;
 }
 
 .social_media {
@@ -50,7 +82,7 @@ main {
     padding: 40px 30px;
     border-radius: 10px;
     width: 500px;
-    /* height: 300px; */
+    height: 275px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -103,7 +135,6 @@ main {
     background-color: hsl(0, 0%, 100%);
     width: 235px;
     height: 220px;
-    margin-bottom: 20px;
     border-radius: 10px;
     padding: 20px 0px 0px 20px;
     overflow: hidden;
@@ -115,7 +146,8 @@ main {
 }
 
 .manage_accounts h3,
-.consistent_posting h3 {
+.consistent_posting h3,
+.schedule_social h3 {
     width: 200px;
     line-height: .8em;
     font-size: 1.8em;
@@ -141,21 +173,53 @@ main {
 
 .audience_grow_followers {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    background-color: blue;
+    background-color: rgb(148, 40, 0);
+    /* width: 765px; */
 }
 
 .faster_audience {
     /* background-color: hsl(0, 0%, 100%); */
     background-color: coral;
+    height: 220px;
+    width: 235px;
+    margin-right: 30px;
+    /* flex: 0 0 auto; */
 }
 
 .grow_followers {
     background-color: hsl(256, 67%, 59%);
+    height: 220px;
+    /* flex-grow: 1; */
 }
 
 .container_right {
+    background-color: hsl(255, 91%, 51%);
+    height: 540px;
+    width: 235px;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.schedule_social {
     background-color: hsl(254, 88%, 90%);
+    width: 235px;
+    height: 525px;
+    border-radius: 10px;
+    padding: 35px 0px 35px 25px;
+}
+
+.schedule_social img {
+    width: 330px;
+    margin: 20px 0;
+}
+
+.schedule_social p {
+    width: 190px;
+    line-height: 1em;
+    font-size: 17px;
 }
 
 img {
