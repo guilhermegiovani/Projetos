@@ -7,9 +7,17 @@
     font-family: "DM Sans", sans-serif;
 }
 
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+}
+
 main {
     display: grid;
     height: 100vh;
+    width: 100%;
     grid-template-columns: 400px 500px 400px;
     gap: 20px;
     justify-content: center;
@@ -250,7 +258,7 @@ img {
 
 /* width 1050 px */
 
-@media (max-width: 670px) {
+@media (max-width: 870px) {
 
     main {
         grid-template-columns: 350px;
