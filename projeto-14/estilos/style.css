@@ -10,7 +10,7 @@
 main {
     display: grid;
     height: 100vh;
-    grid-template-columns: 300px 500px 400px;
+    grid-template-columns: 400px 500px 400px;
     gap: 20px;
     justify-content: center;
     background-color: hsl(0, 0%, 95%);
@@ -246,4 +246,134 @@ main {
 
 img {
     width: 200px;
+}
+
+/* width 1050 px */
+
+@media (max-width: 670px) {
+
+    main {
+        grid-template-columns: 350px;
+        gap: 20;
+        height: 100%;
+        width: 375px;
+        background-color: black;
+        align-items: center;
+    }
+
+    .container_left {
+        background-color: aqua;
+        align-items: center;
+        height: 550px;
+    }
+
+    .container_left > * {
+        width: 325px;
+    }
+
+    .create_post {
+        height: 200px;
+        padding: 25px;
+    }
+    
+    .create_post h2,
+    .content_AI h2 {
+        width: 100%;
+        font-size: 1.7em;
+    }
+    
+    .content_AI {
+        padding: 25px;
+        height: 325px;
+    }
+
+    /* .content_AI img {
+        width: 200px;
+    } */
+
+    /* .container_left > * {
+        width: 300px;
+        height: 300px;
+    } */
+
+    .container_central {
+        background-color: brown;
+        align-items: center;
+    }
+
+    .container_central > * {
+        width: 325px;
+    }
+
+    .social_media {
+        height: 300px;
+        padding: 30px;
+    }
+
+    .social_media h1 {
+        width: 100%;
+        font-size: 3em;
+    }
+
+    .accounts_posting {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background-color: blueviolet;
+        overflow: visible;
+        padding: 0;
+    }
+
+    .manage_accounts {
+        width: 325px;
+        height: 160px;
+        margin: 0 0 20px 0;
+        padding: 20px;
+    }
+
+    .manage_accounts img {
+        width: 290px;
+    }
+
+    .manage_accounts h3,
+    .consistent_posting h3 {
+        width: 100%;
+        font-size: 1.4em;
+    }
+
+    .consistent_posting {
+        width: 325px;
+        height: 205px;
+        padding: 20px 20px 0 20px;
+        align-items: start;
+    }
+
+    
+
+    .audience_grow_followers {
+        flex-direction: column;
+    }
+
+    .container_right {
+        background-color: blue;
+        width: 100%;
+        border-radius: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .container_right > * {
+        width: 325px;
+    }
+
+    .schedule_social {
+        padding: 0;
+    }
+
+    .schedule_social img {
+        width: 300px;
+    }
+
 }
